@@ -1,0 +1,49 @@
+.phone-sec{
+  min-height: calc(100vh - 606px);
+  }
+  .invite-image{
+    pointer-events: none
+  }
+	@media screen and (max-width: 1280px) and (min-width: 991px) {
+	.big-image{
+	border-radius:10vw;
+  }
+  .head-64.top-pod{
+  font-size: 50px;
+  }
+  .line{
+  left:0;
+  }
+  }
+   @media screen and (min-width: 992px){
+  .tab.select .app-tab-txt{
+  background:  #515108;
+  color: white;
+  padding: 20px 40px;
+  margin-left: -40px;
+  border-radius: 50px;
+  }
+  .tab.select .app-txt{
+  height: 180px;
+  opacity: 1;
+  }
+	.tab.select .app-muckup{
+   opacity: 1;
+   }
+   .tab.select .phone-image{
+   right:0;
+   opacity: 1;
+   }}
+	@media screen and (max-width: 1080px) and (min-width: 991px) {
+  .txt-on-image{
+  top: 20%;
+  right: 10%;
+  }
+	.main-txt-side{
+  margin-left: 0px;
+  }
+  }
+  @media screen and (max-width: 767px){
+  .form-bot-txt{
+  width: calc(100% - 130px);
+  }}
